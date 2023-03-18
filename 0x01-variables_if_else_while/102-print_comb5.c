@@ -23,8 +23,8 @@ int main(void)
 			putchar((s / 10) + '0');
 			putchar((s % 10) + '0');
 			if (r == 98 && s == 99)
+			continue;
 			{
-				continue;
 				putchar(',');
 				putchar(' ');
 			}
