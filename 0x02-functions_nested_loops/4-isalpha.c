@@ -1,16 +1,15 @@
+#include <ctype.h>
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
- * 0c: parameter
+ * _isalpha - checks if value is alphabetic
+ * @c:  input value
  *
- * Return: always 0
+ * Return: 1 if c is a letter, otherwise return 0
  */
-
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
-		;
+	if (isalpha(c) != 0)
 		return (1);
 	else
 		return (0);

@@ -1,12 +1,10 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
- * main - main block
- * _putchar: prints the characters _putchar
+ * main - starting point
  *
- * Return: always 0
+ * Return: return 0 if successful
  */
-
 int main(void)
 {
 	_putchar('_');
