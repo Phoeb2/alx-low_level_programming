@@ -3,8 +3,7 @@
 /**
  * is_prime - calculate if the number is prime.
  * @n: natural number
- * @i: counter 
- *
+ * @i: counter
  * Return: 1 if is prime 0 otherwise.
  */
 int is_prime(int n, int i)
@@ -24,7 +23,8 @@ int is_prime(int n, int i)
 }
 
 /**
- * is_prime_number - function that returns 1, if the input integer is a prime number.
+ * is_prime_number - function that returns 1,
+ * if the input integer is a prime number.
  * @n: natural number
  *
  * Return: 1 if is prime otherwise 0.
